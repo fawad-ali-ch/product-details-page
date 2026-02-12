@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(244, 244, 244);
+}
+
+header {
+  background-color: #1e293c;
+  background-position: 40%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.search {
+  height: 35px;
+  width: 100%;
+  max-width: 42rem;
+  min-width: 9rem;
+  border-radius: 6px;
+  font-size: larger;
+}
+
+.container {
+  color: white;
+}
+
+.air {
+  width: 60rem;
+  margin: 60px auto;
+  display: flex;
+  gap: 2rem;
+}
+
+.alpha {
+  border-radius: 20px;
+  width: 100%;
+}
+.main-img-container{
+    width: 100%;
+    aspect-ratio :3/2;
+}
+
+.main-image {
+  border-radius: 20px;
+  object-fit: contain;
+  width: 100%;
+  background-color: white;
+  height:auto;
+}
+
+.images-container {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: 10px;
+}
+.item {
+  height: 6rem;
+  width: 100%;
+  border-radius: 7px;
+  object-fit: contain;
+  background-color: white;
+}
+
+.gen {
+  margin-top: 50px;
+}
+.beta {
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 20px;
+}
+
+.hero1 {
+  margin-bottom: 3px;
+}
+
+.smg {
+  margin: 3px;
+  font-size: 1.5rem;
+}
+
+.beta1 {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.r {
+  font-weight: 700;
+}
+
+.line {
+  text-decoration: line-through;
+  color: rgb(209, 181, 181);
+  margin-left: 1rem;
+}
+.para {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+.rating {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+.btn {
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.bar {
+    height: 1.5rem;
+    width: 2.5rem;
+    border: 2px solid;
+    border-radius: 6px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.btn1 {
+    height: 3rem;
+    width: 92%;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
